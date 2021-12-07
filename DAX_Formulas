@@ -1,0 +1,40 @@
+Dax Functions:
+
+1207head
+
+YEAR(Date) 				- Returns the year of a date as a four digit integer.
+MONTH(Date) 				- Returns a number from 1 (January) to 12 (December) representing the month.
+YEAR(Date) 				- Returns the year of a date as a four digit integer.
+
+WEEKDAY(Date, [ReturnType]) 		- Returns a number from 1 to 7 identifying the day of the week of a date.
+WEEKNUM(Date, [ReturnType]) 		- Returns the week number in the year.
+
+FORMAT(Value, Format, [LocaleName]) 	- Converts a value to text in the specified number format.
+
+Sort by column Step
+- to sort month use MONTH( ), to sort week use WEEKDAY( )
+
+
+1207tail
+
+Column = YEAR([SalesDate])
+Column = MONTH([SalesDate])
+Column = DAY([SalesDate])
+
+Column = [Sales] - [Profit]
+Column = [Sales] + [Profit]
+Column = [Sales] * [Profit]
+Column = [Sales] / [Profit]
+
+Column = WEEKNUM([SalesDate])
+Column = WEEKDAY([SalesDate])
+
+Column = FORMAT([SalesDate], "MMMM")
+Column = FORMAT([SalesDate], "MMM")
+Column = FORMAT([SalesDate], "DDDD")
+Column = FORMAT([SalesDate], "DDD")
+
+
+
+
+
